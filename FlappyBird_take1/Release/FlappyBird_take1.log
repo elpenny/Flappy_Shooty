@@ -1,0 +1,23 @@
+﻿  main.cpp
+c:\users\mikip\documents\visual studio 2015\projects\flappybird_take1\flappybird_take1\map.cpp(30): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\mikip\documents\visual studio 2015\projects\flappybird_take1\flappybird_take1\map.cpp(31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\mikip\documents\visual studio 2015\projects\flappybird_take1\flappybird_take1\map.cpp(32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\mikip\documents\visual studio 2015\projects\flappybird_take1\flappybird_take1\map.cpp(70): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\mikip\documents\visual studio 2015\projects\flappybird_take1\flappybird_take1\map.cpp(71): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\mikip\documents\visual studio 2015\projects\flappybird_take1\flappybird_take1\map.cpp(72): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+main.cpp(19): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+main.cpp(79): warning C4305: 'argument': truncation from 'double' to 'float'
+main.cpp(199): warning C4305: 'argument': truncation from 'double' to 'float'
+  map.cpp
+map.cpp(30): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+map.cpp(31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+map.cpp(32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+map.cpp(70): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+map.cpp(71): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+map.cpp(72): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+map.obj : error LNK2005: "public: bool __thiscall Map::update(class sf::Rect<float>,int &)" (?update@Map@@QAE_NV?$Rect@M@sf@@AAH@Z) already defined in main.obj
+map.obj : error LNK2005: "public: void __thiscall Map::positionPipes(int)" (?positionPipes@Map@@QAEXH@Z) already defined in main.obj
+map.obj : error LNK2005: "public: void __thiscall Map::draw(class sf::RenderWindow &)" (?draw@Map@@QAEXAAVRenderWindow@sf@@@Z) already defined in main.obj
+map.obj : error LNK2005: "public: __thiscall Map::~Map(void)" (??1Map@@QAE@XZ) already defined in main.obj
+map.obj : error LNK2005: "public: __thiscall Map::Map(void)" (??0Map@@QAE@XZ) already defined in main.obj
+C:\Users\mikip\Documents\Visual Studio 2015\Projects\FlappyBird_take1\Release\FlappyBird_take1.exe : fatal error LNK1169: one or more multiply defined symbols found

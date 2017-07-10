@@ -1,0 +1,32 @@
+﻿  map.cpp
+c:\users\mikip\documents\visual studio 2015\projects\flappybird_take1\flappy_shooty\flappybird_take1\map.cpp(32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\mikip\documents\visual studio 2015\projects\flappybird_take1\flappy_shooty\flappybird_take1\map.cpp(33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\mikip\documents\visual studio 2015\projects\flappybird_take1\flappy_shooty\flappybird_take1\map.cpp(34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\mikip\documents\visual studio 2015\projects\flappybird_take1\flappy_shooty\flappybird_take1\map.cpp(72): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\mikip\documents\visual studio 2015\projects\flappybird_take1\flappy_shooty\flappybird_take1\map.cpp(73): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\mikip\documents\visual studio 2015\projects\flappybird_take1\flappy_shooty\flappybird_take1\map.cpp(74): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  main.cpp
+c:\users\mikip\documents\visual studio 2015\projects\flappybird_take1\flappy_shooty\flappybird_take1\map.cpp(32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\mikip\documents\visual studio 2015\projects\flappybird_take1\flappy_shooty\flappybird_take1\map.cpp(33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\mikip\documents\visual studio 2015\projects\flappybird_take1\flappy_shooty\flappybird_take1\map.cpp(34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\mikip\documents\visual studio 2015\projects\flappybird_take1\flappy_shooty\flappybird_take1\map.cpp(72): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\mikip\documents\visual studio 2015\projects\flappybird_take1\flappy_shooty\flappybird_take1\map.cpp(73): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\mikip\documents\visual studio 2015\projects\flappybird_take1\flappy_shooty\flappybird_take1\map.cpp(74): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\mikip\documents\visual studio 2015\projects\flappybird_take1\flappy_shooty\flappybird_take1\main.cpp(13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\mikip\documents\visual studio 2015\projects\flappybird_take1\flappy_shooty\flappybird_take1\main.cpp(75): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\mikip\documents\visual studio 2015\projects\flappybird_take1\flappy_shooty\flappybird_take1\main.cpp(212): warning C4305: 'argument': truncation from 'double' to 'float'
+  projectile.cpp
+  Generating Code...
+c:\users\mikip\documents\visual studio 2015\projects\flappybird_take1\flappy_shooty\flappybird_take1\map.cpp(95): warning C4715: 'Map::update': not all control paths return a value
+c:\users\mikip\documents\visual studio 2015\projects\flappybird_take1\flappy_shooty\flappybird_take1\map.cpp(95): warning C4715: 'Map::update': not all control paths return a value
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/FORCE' specification
+projectile.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+map.obj : warning LNK4006: "public: __thiscall Map::Map(void)" (??0Map@@QAE@XZ) already defined in main.obj; second definition ignored
+map.obj : warning LNK4006: "public: __thiscall Map::~Map(void)" (??1Map@@QAE@XZ) already defined in main.obj; second definition ignored
+map.obj : warning LNK4006: "public: void __thiscall Map::draw(class sf::RenderWindow &)" (?draw@Map@@QAEXAAVRenderWindow@sf@@@Z) already defined in main.obj; second definition ignored
+map.obj : warning LNK4006: "public: void __thiscall Map::positionPipes(int)" (?positionPipes@Map@@QAEXH@Z) already defined in main.obj; second definition ignored
+map.obj : warning LNK4006: "public: bool __thiscall Map::update(class sf::Rect<float>,int &)" (?update@Map@@QAE_NV?$Rect@M@sf@@AAH@Z) already defined in main.obj; second definition ignored
+map.obj : warning LNK4006: "public: bool __thiscall Map::update(class sf::Rect<float>,class sf::Sprite)" (?update@Map@@QAE_NV?$Rect@M@sf@@VSprite@3@@Z) already defined in main.obj; second definition ignored
+C:\Users\mikip\Documents\Visual Studio 2015\Projects\FlappyBird_take1\Flappy_Shooty\Debug\FlappyBird_take1.exe : warning LNK4088: image being generated due to /FORCE option; image may not run
+  FlappyBird_take1.vcxproj -> C:\Users\mikip\Documents\Visual Studio 2015\Projects\FlappyBird_take1\Flappy_Shooty\Debug\FlappyBird_take1.exe
+  FlappyBird_take1.vcxproj -> C:\Users\mikip\Documents\Visual Studio 2015\Projects\FlappyBird_take1\Flappy_Shooty\Debug\FlappyBird_take1.pdb (Full PDB)
